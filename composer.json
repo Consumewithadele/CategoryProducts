@@ -1,0 +1,17 @@
+{
+    "name": "trespass/category-products",
+    "description": "Export products in a category",
+    "type": "magento2-module",
+    "version": "1.0.8",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Trespass\\CategoryProducts\\": ""
+        }
+    }
+}
